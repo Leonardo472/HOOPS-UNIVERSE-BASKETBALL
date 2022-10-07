@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<title>Form Registrasi Siswa</title>
+	</head>
+	
+	<body>
+		<div class="main">
+			<div class="header">
+				<div class="logo">
+					<img src="Picture/logo.png" alt="logo" id="logo" height="120px" width="135px">
+				</div>
+				<div class="nav">
+					<ul>
+						<li>
+							<a>HOME</a>
+							<ul>
+								<li><a href="Main.html">Event</a></li>
+								<li><a href="Main.html">New Arrival</a></li>
+								<li><a href="Main.html">Best Seller</a></li>
+							</ul>
+						</li>
+						<li><a>SHOES</a></li>
+						<li><a>ACCESSORIES</a></li>
+						<li><a>FAQ</a></li>
+						<li><a href="Buy.html">PURCHASE PRODUCT</a></li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="form">
+				<h2 align="center">Form Purchase Product</h2>
+				<form>
+					<table align="center" cellpadding="10">
+						
+						<tr>
+							<td>Name</td>
+							<td><input type="text" name="LastName" size="50" maxlength="50"></td>
+						</tr>	
+
+						<tr>
+							<td>Mobile Number</td>
+							<td><input type="text" name="MobileNumber" size="50" maxlength="50"></td>
+						</tr>	
+						
+						<tr>
+							<td>Email</td>
+							<td><input type="text" name="EmailID" size="50" maxlength="50"></td>
+						</tr>	
+
+						<tr>
+							<td>Gender</td>
+							<td>
+								<input type="radio" name="Gender" value="Male" />Male
+								<input type="radio" name="Gender" value="Female" />female
+							</td>
+						</tr>	
+
+						<tr>
+							<td>Date of Birth(DOB)</td>
+							<td>
+								<select name="BirthDay" id="Birthday_Day">
+									<option value="-1">Day:</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							
+						
+								<select name="BirthdayMonth" id="Birthday_Month">
+									<option value="-1">Month:</option>
+									<option value="January">Januari</option>
+									<option value="February">Februari</option>
+									<option value="March">Maret</option>
+									<option value="April">April</option>
+									<option value="Mei">Mei</option>
+								</select>
+						
+							
+								<select name="BirthdayYear" id="Birthday_Year">
+								<option value="-1">Year:</option>
+									<option value="1999">1999</option>
+									<option value="2000">2000</option>
+									<option value="2001">2001</option>
+									<option value="2002">2002</option>
+									<option value="2003">2003</option>
+								</select>
+							</td>
+
+						</tr>
+						
+						<tr>
+							<td>Address</td><br /><br /></td>
+							<td><textarea name="Address" rows="10" cols="50"></textarea></td>
+						</tr>	
+
+						<tr>
+							<td>Notes</td><br /><br /></td>
+							<td><textarea name="Address" rows="10" cols="50"></textarea></td>
+						</tr>
+							
+						<tr>
+							<td colspan="2" align="center">
+								<input type="submit" value="submit">	
+							</td>
+						</tr>
+					</table>
+				</form> 
+			</div>
+
+			<div class="footer">
+                <div class="footertop">
+                    <a><strong>Hoops Universe</strong></a>
+                </div>
+
+                <div class="footermid">
+                    <a>About Contact Term Of Service FAQ</a>
+                </div>
+  
+                <div class="footerbot">
+                    <a href="https://www.facebook.com/"><img src="Picture/facebook.png" alt="facebook" id="facebook" width="35px" height="25px"></a>
+                    <a href="https://www.instagram.com/"><img src="Picture/instagram.png" alt="facebook" id="facebook" width="35px" height="25px"></a>
+                    <a href="https://www.youtube.com/"><img src="Picture/youtube.png" alt="facebook" id="facebook" width="35px" height="25px"></a>
+                    <a href="https://www.linkedin.com/"><img src="Picture/linkedin.png" alt="facebook" id="facebook" width="35px" height="25px"></a>
+                    <a href="https://www.twitter.com/"><img src="Picture/twitter.png" alt="facebook" id="facebook" width="35px" height="25px"></a>
+                </div>
+            </div>
+
+		</div>
+
+		<link rel="stylesheet" type="text/css" href="stylebuy.css">
+	</body>
+</html>
